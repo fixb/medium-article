@@ -7,6 +7,16 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: #4352A1;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 p {
     color: rgb(73,73,73);
     font-family: Lora, serif;
