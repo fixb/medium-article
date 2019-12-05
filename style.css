@@ -86,6 +86,7 @@ h2 {
     cursor: pointer;
     font-family: Lora, serif;
     line-height: 40px;
+    text-decoration: none;
 
 }
 
@@ -105,7 +106,8 @@ h2 {
   }
 }
 
-@media (max-width: 750px)
-.container {
+@media (max-width: 750px) {
+  .container {
     width: 450px;
+}
 }
