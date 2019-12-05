@@ -11,7 +11,8 @@ a {
     text-decoration: none;
     color: #4352A1;
 }
-a:-webkit-any-link {
+
+a: -webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
     text-decoration: none;
